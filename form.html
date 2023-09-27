@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>기숙사 별 옷 조사</legend>
+            <label for="lastname">성:</label>
+            <input type="text" id="name" firstname="lastname"><br>
+
+
+            <label for="firstname">이름:</label>
+            <input type="text" id="name" fname="firstname"><br>
+
+            <label for="birthDate">생년월일:</label>
+            <input type="date" id="birthDate" name="birthDate"><br>
+
+            <label for="studentID">학번:</label>
+            <input type="text" id="name" fname="studentID"><br>
+
+            <label>성별:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">남자</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">여자</label><br>
+
+            <label>학년:</label>
+            <input type="checkbox" id="first1" name="first" value="first1">
+            <label for="hobby1">1학년</label>
+            <input type="checkbox" id="second2" name="second" value="second2">
+            <label for="hobby2">2학년</label>
+            <input type="checkbox" id="third3" name="third" value="third3">
+            <label for="hobby1">3학년</label>
+            <input type="checkbox" id="fourth4" name="fourth1" value="fourth4">
+            <label for="hobby2">4학년</label><br>
+
+            <label for="country">기숙사:</label>
+            <select id="country" name="country">
+                <option value="korea">벧엘</option>
+                <option value="usa">창조</option>
+                <option value="japan">카이퍼</option>
+                <option value="japan">은혜</option>
+                <option value="japan">비전</option>
+                <option value="japan">로뎀</option>
+                <option value="japan">갈대상자</option>
+            </select><br>
+
+            <label for="comments">건의사항:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+        </fieldset>
+
+        <label for="color">선호하는 옷 색상:</label>
+        <input type="color" id="color" name="color"><br>
+
+        <label for="datalist">사이즈 선택:</label>
+        <input list="options" id="datalist" name="datalist">
+        <datalist id="options">
+            <option value="S">
+            <option value="M">
+            <option value="L">
+        </datalist><br>
+
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>
